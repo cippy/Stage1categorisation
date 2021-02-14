@@ -28,7 +28,8 @@ if opts.trainParams: opts.trainParams = opts.trainParams.split(',')
 from Tools.variableDefinitions import allVarsGen, dijetVars, lumiDict
 
 #possible to add new variables here - have done some suggested ones as an example
-newVars = ['gghMVA_leadPhi','gghMVA_leadJEn','gghMVA_subleadPhi','gghMVA_SubleadJEn','gghMVA_SubsubleadJPt','gghMVA_SubsubleadJEn','gghMVA_subsubleadPhi','gghMVA_subsubleadEta']
+#newVars = ['gghMVA_leadPhi','gghMVA_leadJEn','gghMVA_subleadPhi','gghMVA_SubleadJEn','gghMVA_SubsubleadJPt','gghMVA_SubsubleadJEn','gghMVA_subsubleadPhi','gghMVA_subsubleadEta']
+newVars = []
 allVarsGen += newVars
 dijetVars += newVars
 
